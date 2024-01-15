@@ -1,0 +1,189 @@
+/* PromoPro.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #8758ff;
+  
+}
+.App {
+  text-align: center;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.tab {
+  margin: 0 10px;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tab.active {
+  background-color: #2980b9;
+}
+
+.timer {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.timer p {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.start {
+  background-color: #2ecc71;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.message {
+  font-size: 18px;
+  color: #333;
+}
+
+.tasks {
+  margin: 20px 0;
+}
+
+.tasks input {
+  padding: 10px;
+  font-size: 16px;
+  width: 60%;
+  margin-right: 10px;
+}
+
+.tasks button {
+  background-color: #e74c3c;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: #1A1A40;
+  margin: 2rem auto; /* Center the TodoWrapper horizontally */
+  padding: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  border-radius: 50px;
+  width: 39%; /* Set a specific width */
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+  
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+  
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+  .TodoWrapper {
+    width: 100%;
+  }
+}
+/* ... */
+.speech-and-music {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.speech{
+  width: 48%; 
+  margin-left: 400px;
+  /* Adjust as needed based on your layout */
+}
+/* ... */
+#music{
+margin-left: 30px;
+}
